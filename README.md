@@ -384,7 +384,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 ## Stitching Assessment
 
-- [2019MM] Cross-Reference Stitching Quality Assessment for 360° Omnidirectional Images [[Slides]](2019MM_Cross_Reference_Stitching) [[Dataset]](https://github.com/Kaiwen1949/CRSQA) 
+- [2019MM] Cross-Reference Stitching Quality Assessment for 360° Omnidirectional Images [[Slides]](/Docs/2019MM_Cross_Reference_Stitching) [[Dataset]](https://github.com/Kaiwen1949/CRSQA) 
 - [2017ICCVW] A content-aware metric for stitched panoramic image quality assessment
 
 - **Secondary**
