@@ -349,8 +349,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 - Coarse-to-fine Seam Estimation for Image Stitching, arXiv2018.5
 
-- --
-
 - [2019SIVP] Quality evaluation-based iterative seam estimation for image stitching [[Code]](https://github.com/tlliao/Iterative-seam-estimation)
 - [2018SIVP] Perception-based seam cutting for image stitching [[Code]](https://github.com/tlliao/Perception-based-seam-cutting)
 
@@ -384,7 +382,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 ## Stitching Assessment
 
-- [2019MM] Cross-Reference Stitching Quality Assessment for 360° Omnidirectional Images [[Slides]](/Docs/2019MM_Cross_Reference_Stitching) [[Dataset]](https://github.com/Kaiwen1949/CRSQA) 
+- [2019MM] Cross-Reference Stitching Quality Assessment for 360° Omnidirectional Images [[Slides]](/Docs/2019MM_Cross_Reference_Stitching.pdf) [[Dataset]](https://github.com/Kaiwen1949/CRSQA) 
 - [2017ICCVW] A content-aware metric for stitched panoramic image quality assessment
 
 - **Secondary**
@@ -423,9 +421,9 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 - [**2019SIGGAsia**] Deep Iterative Frame Interpolation for Full-frame Video Stabilization
 
-- [**2019TIP**] Deep Online Video Stabilization With Multi-Grid Warping Transformation Learning [[Code]](https://github.com/cxjyxxme/deep-online-video-stabilization) [[DebugNote]](https://github.com/24werewolf/video-stabilization/tree/0635bc287a0a631d24807161e037e8d694a1f0f5/code/deep-online-video-stabilization-master) [[Note]]([https://github.com/24werewolf/video-stabilization/blob/0635bc287a0a631d24807161e037e8d694a1f0f5/paper/Deep%20Online%20Video%20Stabilization%20with%20Multi-grid.md](https://github.com/24werewolf/video-stabilization/blob/0635bc287a0a631d24807161e037e8d694a1f0f5/paper/Deep Online Video Stabilization with Multi-grid.md))  Deep Online Video Stabilization, arXiv2018
+- [**2019TIP**] Deep Online Video Stabilization With Multi-Grid Warping Transformation Learning [[Code]](https://github.com/cxjyxxme/deep-online-video-stabilization) [[DebugNote]](https://github.com/24werewolf/video-stabilization/tree/0635bc287a0a631d24807161e037e8d694a1f0f5/code/deep-online-video-stabilization-master) [[Note]](https://github.com/24werewolf/video-stabilization/blob/0635bc287a0a631d24807161e037e8d694a1f0f5/paper/Deep%20Online%20Video%20Stabilization%20with%20Multi-grid.md)  Deep Online Video Stabilization, arXiv2018
 - [**2019CVPR**] Robust Video Stabilization by Optimization in CNN Weight Space [[Video]](https://cseweb.ucsd.edu/~ravir/)
-- [2018CGF] Deep Video Stabilization Using Adversarial Networks [[Note]]([https://github.com/24werewolf/video-stabilization/blob/0635bc287a0a631d24807161e037e8d694a1f0f5/paper/Deep%20Video%20Stabilization%20Using%20Adversarial%20Networks.md](https://github.com/24werewolf/video-stabilization/blob/0635bc287a0a631d24807161e037e8d694a1f0f5/paper/Deep Video Stabilization Using Adversarial Networks.md))
+- [2018CGF] Deep Video Stabilization Using Adversarial Networks [[Note]](https://github.com/24werewolf/video-stabilization/blob/0635bc287a0a631d24807161e037e8d694a1f0f5/paper/Deep%20Video%20Stabilization%20Using%20Adversarial%20Networks.md)
 - [2018] Deep Learning in Video Stabilization Homography Estimation, ConfNNA2018
 - [**2015TIP**] Video Stabilization Based on Feature Trajectory Augmentation and Selection and Robust Mesh Grid Warping
 
