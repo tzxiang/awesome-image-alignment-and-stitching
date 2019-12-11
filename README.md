@@ -114,7 +114,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [2017ICMR] Panorama to panorama matching for location recognition
 - [2016BMVC] Fully-Trainable Deep Matching
 - [**2015CVPR**] MatchNet: Unifying Feature and Metric Learning for Patch-Based Matching
-- [**2015CVPR**] Best-Buddies Similarity for Robust Template Matching [[Proj&Code]]([https://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html](https://people.csail.mit.edu/talidekel/Best-Buddies Similarity.html))
+- [**2015CVPR**] Best-Buddies Similarity for Robust Template Matching [[Proj&Code]](https://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html)
 - [**2016NeurIPS**] Universal Correspondence Network
 - [**2013CVPR**] Joint Spectral Correspondence for Disparate Image Matching [[Code]](https://github.com/chaitanya100100/Spectral-Analysis-for-Image-Matching)
 
