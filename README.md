@@ -108,7 +108,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 - [**2019ICCV**] Learning Two-View Correspondences and Geometry Using Order-Aware Network [[Codes]](https://github.com/zjhthu/OANet)
 - [**2018PAMI**] CODE: Coherence based Decision Boundaries for Feature Matching [[Code]](https://github.com/seravee08/WideBaselineFeatureMatcher_PAMI)
-- [[Homepage]](https://sites.google.com/site/adscsfm/home/aligning-images-in-the-wild/code)
 - [2018CVIU] Deep Spectral Correspondence for Matching Disparate Image Pairs 
 - [2017MM] Deep Matching and Validation Network: An End-to-End Solution to Constrained Image Splicing Localization and Detection [[Codes]](https://github.com/maroofmf/image_splicing_ICT)
 - [2017ICMR] Panorama to panorama matching for location recognition
@@ -119,7 +118,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [**2013CVPR**] Joint Spectral Correspondence for Disparate Image Matching [[Code]](https://github.com/chaitanya100100/Spectral-Analysis-for-Image-Matching)
 
 - [2013HPCS] Gpu-asift: A fast fully affine-invariant feature extraction algorithm [[Homepage]](http://www.kind-of-works.com/WANGFAN_site_data/GPU-ASIFT.html) [[Code]]()
-- [**2012CVPR**] Aligning Images in the Wild
+- [**2012CVPR**] Aligning Images in the Wild [[Homepage]](https://sites.google.com/site/adscsfm/home/aligning-images-in-the-wild/code)
 
 
 
@@ -382,7 +381,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 ## Stitching Assessment
 
-- [2019MM] Cross-Reference Stitching Quality Assessment for 360° Omnidirectional Images [[Slides]](/Docs/2019MM_Cross_Reference_Stitching.pdf) [[Dataset]](https://github.com/Kaiwen1949/CRSQA) 
+- [2019MM] Cross-Reference Stitching Quality Assessment for 360° Omnidirectional Images [[Slides]](/Docs/2019MM_Cross_Reference_Stitching.pptx) [[Dataset]](https://github.com/Kaiwen1949/CRSQA) 
 - [2017ICCVW] A content-aware metric for stitched panoramic image quality assessment
 
 - **Secondary**
