@@ -4,6 +4,8 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 
 
+[TOC]
+
 ## <font color=#159>Review</font>
 
 **Matching/Registration/Alignment**
@@ -39,6 +41,8 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 - [**2019TCSVT**] DR-GAN: Automatic Radial Distortion Rectification Using Conditional GAN in Real-Time
 - [**2019CVPR**] Learning to Calibrate Straight Lines for Fisheye Image Rectification
+
+
 
 
 
@@ -98,7 +102,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 
 
-### Matching
+### Image Matching
 
 #### - Feature Matching
 
@@ -179,9 +183,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 ### Registration
 
-
-
-**Remote Sensing**
+#### - Remote Sensing
 
 - Coarse to fine non-rigid registration: a chain of scale-specific neural networks for multimodal image alignment with application to remote sensing, arXiv2018.2
 - [**2018ECCV**] Multimodal Image Alignment Through a Multiscale Chain of Neural Networks with Application to Remote Sensing [[Homepage]](https://www.lri.fr/~gcharpia/alignment/) [[Code]](https://github.com/Lydorn/mapalignment)
@@ -232,7 +234,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
   
 
-**Medical Registration**
+#### - Medical Registration
 
 - **MICCAI2019**  
 
@@ -262,7 +264,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
   
 
-**Point Cloud Registration**
+#### - Point-cloud Registration
 
 - [2019ICCV] DeepVCP: An End-to-End Deep Neural Network for Point Cloud Registration
 - CMRNet: Camera to LiDAR-Map Registration, IEEE ITSC2019
@@ -272,8 +274,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 
 ## Image Alignment
-
-
 
 ### CNN Stitching
 
@@ -342,14 +342,13 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 ## Image Composition
 
-
-
 ### Seamline
 
 - Coarse-to-fine Seam Estimation for Image Stitching, arXiv2018.5
 
 - [2019SIVP] Quality evaluation-based iterative seam estimation for image stitching [[Code]](https://github.com/tlliao/Iterative-seam-estimation)
 - [2018SIVP] Perception-based seam cutting for image stitching [[Code]](https://github.com/tlliao/Perception-based-seam-cutting)
+- [2017IPOL] Efros and Freeman Image Quilting Algorithm for Texture Synthesis [2001Dynamic Seamline] [[Code]](http://www.ipol.im/pub/art/2017/171/?utm_source=doi)
 
 
 
@@ -357,7 +356,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 #### - Gradient-based
 
-- [**2019MM**] GP-GAN: Towards Realistic High-Resolution Image Blending  [[Proj]](http://wuhuikai.me/GP-GAN-Project/)  [[github]](https://github.com/wuhuikai/GP-GAN) ⭐️
+- [**2019MM**] GP-GAN: Towards Realistic High-Resolution Image Blending  [[Proj]](http://wuhuikai.me/GP-GAN-Project/)  [[github]](https://github.com/wuhuikai/GP-GAN) :star:
 - [2007TOG] Efficient gradient-domain compositing using quadtrees
 - [2004SIGG] Interactive Digital Photomontage [[Proj&Code]](http://grail.cs.washington.edu/projects/photomontage/)
 - [2004ECCV] Seamless image stitching in the gradient domain
@@ -394,7 +393,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 ## Video Stitching
 
-- [**2019BMVC**] [**CNNStitch**] Video Stitching for Linear Camera Arrays [CNN-based]  [[Proj]](http://vllab.ucmerced.edu/wlai24/video_stitching/) ⭐️
+- [**2019BMVC**] [**CNNStitch**] Video Stitching for Linear Camera Arrays [CNN-based]  [[Proj]](http://vllab.ucmerced.edu/wlai24/video_stitching/)  :star:
 
 - [**2018TIP**] Dynamic Video Stitching via Shakiness Removing [[github]](https://github.com/SuTanTank/VideoStitchingViaShakinessRemoving)
 - [2017CGF] High-resolution 360 video foveated stitching for realtime VR
@@ -442,7 +441,8 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 ### Examples
 
-- Panorama stitching Project (Python) [[Code]](https://github.com/tsherlock/panorama) ⭐️
+- Panorama stitching Project (Python) [[Code]](https://github.com/tsherlock/panorama) :star:
 
-- OpenPano: Automatic Panorama Stitching From Scratch [[Code]](https://github.com/ppwwyyxx/OpenPano) ⭐️⭐️
+- OpenPano: Automatic Panorama Stitching From Scratch [[Code]](https://github.com/ppwwyyxx/OpenPano) :star::star:
 - Image-Alignment-and-Panoramas [[Code]](https://github.com/TejasNaikk/Image-Alignment-and-Panoramas)
+
