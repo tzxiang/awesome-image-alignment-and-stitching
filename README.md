@@ -6,11 +6,33 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 [TOC]
 
+## Tutorial
+
+- **Repo**: [Image registration](https://github.com/youngfish42/awesome-image-registration)
+
+  A resource list about image registration related to natural/remote sensing/medical image and point cloud.
+
+- **MICCAI2019 Tutorial: Learn2Reg: Tutorial on Deep Learning in Medical Image Registration**   [[Homepage]](https://github.com/learn2reg/tutorials2019)
+
+  Three hands-on sessions guiding participants to understand and implement published algorithms using clinical imaging data, including *unsupervised registration, label-supervised registration, and discrete deep learning registration*.
+
+- **A Practical Review on Medical Image Registration: from Rigid to Deep Learning based Approaches** [[PDF&Slides]]( https://github.com/natandrade/Tutorial-Medical-Image-Registration)
+
+  A tutorial for anyone who wants to learn Medical Image Registration, by Natan Andrade, Fabio Augusto Faria, Fábio Augusto Menocci Cappabianco, SIBGRAPI2018
+
+- [**Blog**] **Image Registration: From SIFT to Deep Learning** [[Homepage]](https://www.sicara.ai/blog/2019-07-16-image-registration-deep-learning) [[Notes/Chinese]](https://zhuanlan.zhihu.com/p/75784915)
+
+  It presents OpenCV feature-based methods before diving into Deep Learning, including example codes.
+
+- [Book] Image Descriptor: Modern Approaches, Bin Fan, Zhenhua Wang, and Fuchao Wang. Springer, 2015.
+
+
+
 ## <font color=#159>Review</font>
 
 **Matching/Registration/Alignment**
 
-- [**2017CVPR**] HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors
+- [**2017CVPR**] HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors [[Homepage]](https://hpatches.github.io/)
 
 
 
@@ -42,6 +64,12 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [**2019TCSVT**] DR-GAN: Automatic Radial Distortion Rectification Using Conditional GAN in Real-Time
 - [**2019CVPR**] Learning to Calibrate Straight Lines for Fisheye Image Rectification
 
+- [2015CVPR] Line-Based Multi-Label Energy Optimization for Fisheye Image Rectification and Calibration [[Proj]](http://cvrs.whu.edu.cn/projects/FIRC/)
+
+
+
+- [IJCV2019] Superpixel-Guided Two-View Deterministic Geometric Model Fitting [Guobao Xiao]
+
 
 
 
@@ -71,6 +99,10 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [**2017ICCV**] Semantic Line Detection and Its Applications
 - [**2017PAMI**] A Novel Linelet-based Representation for Line Segment Detection [[Code]](https://github.com/NamgyuCho/Linelet-code-and-YorkUrban-LineSegment-DB)
 
+- [2017CVPR] MCMLSD: A Dynamic Programming Approach to Line Segment Detection [[Code]](http://www.elderlab.yorku.ca/resources/) 
+
+- Edge Drawing/EDLines/LBD Descriptors/LSD [[Code]](https://github.com/mtamburrano/LBD_Descriptor) [[Code2]](https://github.com/Vincentqyw/LineSegmentsDetection)
+
 
 
 #### - Edge Detection
@@ -85,6 +117,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - Dense Extreme Inception Network: Towards a Robust CNN Model for Edge Detection, arXiv2019.9
 - [**2018TIP**] Arc-support Line Segments Revisited: An Efficient and High-quality Ellipse Detection [[github]](https://github.com/AlanLuSun/High-quality-ellipse-detection)
 - [**2017IJCV**] Holistically-Nested Edge Detection
+- [**2017TIP**] A Fast Ellipse Detector Using Projective Invariant Pruning [[Code]](https://github.com/dlut-dimt/ellipse-detector)
 
 - [**2012ECCV**] [**ELSD**] A parameterless line segment and elliptical arc detector with enhanced ellipse fitting [[Homepage&Code]](http://ubee.enseeiht.fr/vision/ELSD/)
 
@@ -111,18 +144,42 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [**2019CVPR**] RF-Net: An End-to-End Image Matching Network based on Receptive Field [[Code]](https://github.com/Xylon-Sean/rfnet)
 
 - [**2019ICCV**] Learning Two-View Correspondences and Geometry Using Order-Aware Network [[Codes]](https://github.com/zjhthu/OANet)
+
 - [**2018PAMI**] CODE: Coherence based Decision Boundaries for Feature Matching [[Code]](https://github.com/seravee08/WideBaselineFeatureMatcher_PAMI)
+
+- [**2018PAMI**] Best-buddies similarity-robust template matching using mutual nearest neighbors
+
+  > [**2015CVPR**] Best-Buddies Similarity for Robust Template Matching [[Proj&Code]](https://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html)
+
 - [2018CVIU] Deep Spectral Correspondence for Matching Disparate Image Pairs 
+
 - [2017MM] Deep Matching and Validation Network: An End-to-End Solution to Constrained Image Splicing Localization and Detection [[Codes]](https://github.com/maroofmf/image_splicing_ICT)
+
 - [2017ICMR] Panorama to panorama matching for location recognition
+
+- [**2016IJCV**] DeepMatching: Hierarchical Deformable Dense Matching [[Code]](http://lear.inrialpes.fr/src/deepmatching/)
+
 - [2016BMVC] Fully-Trainable Deep Matching
-- [**2015CVPR**] MatchNet: Unifying Feature and Metric Learning for Patch-Based Matching
-- [**2015CVPR**] Best-Buddies Similarity for Robust Template Matching [[Proj&Code]](https://people.csail.mit.edu/talidekel/Best-Buddies%20Similarity.html)
+
 - [**2016NeurIPS**] Universal Correspondence Network
+
+- [**2015CVPR**] MatchNet: Unifying Feature and Metric Learning for Patch-Based Matching
+
 - [**2013CVPR**] Joint Spectral Correspondence for Disparate Image Matching [[Code]](https://github.com/chaitanya100100/Spectral-Analysis-for-Image-Matching)
 
 - [2013HPCS] Gpu-asift: A fast fully affine-invariant feature extraction algorithm [[Homepage]](http://www.kind-of-works.com/WANGFAN_site_data/GPU-ASIFT.html) [[Code]]()
 - [**2012CVPR**] Aligning Images in the Wild [[Homepage]](https://sites.google.com/site/adscsfm/home/aligning-images-in-the-wild/code)
+- [**2012CVPR**] Image Matching using Local Symmetry Features [[Proj&Code]](http://www.cs.cornell.edu/projects/symfeat/index.html)
+
+
+
+#### - Line Matching
+
+- [2012PR] [LPI] Robust Line Matching through Line-point Invariants, [[Code]](http://www.nlpr.ia.ac.cn/fanbin/code/TestLMDll.rar)
+
+  > [2010CVPR] Line Matching Leveraged By Point Correspondences [[Proj]](http://vision.ia.ac.cn/Students/bfan/lm.htm)
+
+
 
 
 
@@ -132,7 +189,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [**2019CVPR**] MAGSAC: marginalizing sample consensus (no in-outlier threshold) [[Code]](https://github.com/danini/magsac)
 
 - [**2018CVPR**] Latent RANSAC [[Code]](https://github.com/rlit/LatentRANSAC)
-- [**2017CVPR**] GMS: Grid-based Motion Statistics for Fast, Ultra-robust Feature Correspondence [[Code]](https://github.com/JiawangBian/GMS-Feature-Matcher)
+- [**2017CVPR**] GMS: Grid-based Motion Statistics for Fast, Ultra-robust Feature Correspondence [[Code]](https://github.com/JiawangBian/GMS-Feature-Matcher) [[Talk]](https://www.bilibili.com/video/av11450426/)
 
 
 
@@ -171,6 +228,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [2018ACCV] Rethinking Planar Homography Estimation Using Perspective Fields [[Code]](https://github.com/ruizengalways/PFNet)
 - [2018RAL] Unsupervised Deep Homography: A Fast and Robust Homography Estimation Model, IEEE RAL [[Code]](https://github.com/tynguyen/unsupervisedDeepHomographyRAL2018)
 - [**2018ECCV**] GridFace: Face Rectification via Learning Local Homography Transformations
+- [**2017CVPR**] CLKN: Cascaded Lucas-Kanade Networks for Image Alignment
 - [2017ICCVW] Homography Estimation from Image Pairs with Hierarchical Convolutional Networks [[Code]](https://github.com/erlikn/tf_dh_py) 
 - [2016RSSW] [HomographyNet] Deep Image Homography Estimation, RSSW2016 [[Note]](https://mez.github.io/2017/07/21/homographynet-deep-image-homography-estimation/) [[Note2]](https://blog.csdn.net/miracle0_0/article/details/79640016) [[unofficial1-tf]](https://github.com/alexhagiopol/deep_homography_estimation) [[unofficial2-tf]](https://github.com/yishiliuhuasheng/deep_image_homography_estimation) [[unofficial3]](https://github.com/mez/deep_homography_estimation) [[unofficial4-pytorch]](https://github.com/mazenmel/Deep-homography-estimation-Pytorch) [[unofficial5-keras]](https://github.com/richard-guinto/homographynet) [[unofficial6-keras]](https://github.com/fjbriones/deep-homography)
 
@@ -182,6 +240,17 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 
 ### Registration
+
+#### - Natural Scene
+
+- [**2017PAMI**] Transformations Based on Continuous Piecewise-Affine Velocity Fields
+
+  > [2015ICCV] Highly-Expressive Spaces of Well-Behaved Transformations: Keeping It Simple [[Code-Python+CUDA]](https://github.com/freifeld/cpabDiffeo) [[Code-CPU+Julia]](https://github.com/angel8yu/cpab-diffeo-julia) [[Proj]](http://groups.csail.mit.edu/vision/sli/projects.php?name=cpab)
+
+- [**2015CVPR**] Robust Image Alignment with Multiple Feature Descriptors and Matching-Guided Neighborhoods [[Proj/Code]](http://cvlab.citi.sinica.edu.tw/publications?id=79)
+- [**2014ECCV**] Multi-modal and Multi-spectral Registration for Natural Images [[Proj]](http://www.cse.cuhk.edu.hk/~leojia/projects/multimodal/index.html)
+
+
 
 #### - Remote Sensing
 
@@ -273,14 +342,13 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 
 
-## Image Alignment
+## Image Stitching
 
 ### CNN Stitching
 
 - [2020] Attentive Deep Stitching and Quality Assessment for 360° Omnidirectional Images,  JSTSP
-
 - **Secondary**
-
+- [2019] StitchNet: Image Stitching using Autoencoders and Deep Convolutional Neural Networks, thesis
 - [2018] Learning-based Natural Geometric Matching with Homography Prior, ElectronicsLetter
 
 
@@ -300,16 +368,20 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [2018Acce] An Accurate Multi-Row Panorama Generation Using Multi-Point Joint Stitching
 - [2018Acce] Generalized Content-Preserving Warps for Image Stitching
 - [2018Conf] Large Parallax Image Stitching Using an Edge-Preserving Diffeomorphic Warping Process
-- [2017] Robust Multi-homography Method for Image Stitching under Large Viewpoint Changes
+- [2017] Robust Multi-homography Method for Image Stitching under Large Viewpoint Changes, conf
 - [2014TMM] Image Alignment by Piecewise Planar Region Matching
 
 
 
 ### Seam-based Stitching
 
-- [2016ECCV] SEAGULL: Seam-guided Local Alignment for Parallax-tolerant Image Stitching [[Note]](https://blog.csdn.net/miracle0_0/article/details/81606388)
+- [**2016ECCV**] SEAGULL: Seam-guided Local Alignment for Parallax-tolerant Image Stitching [[Note]](https://blog.csdn.net/miracle0_0/article/details/81606388)
 
+- [2014CVPR] Parallax-tolerant Image Stitching [[Proj/Data]](http://web.cecs.pdx.edu/~fliu/project/stitch/)
 
+- [2013EG] Seam-Driven Image Stitching
+
+  
 
 ### Dsitortion Preserving
 
@@ -321,20 +393,46 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 
 
+### Warping/Projection 
+
+- [2009CGF] A Shape-Preserving Approach to Image Resizing [[Proj/Code]](http://mmcheng.net/imageresizing/)
+
+- [2005ICCV] Squaring the Circle in Panoramas
+- [2005TOG] As-rigid-as-possible shape manipulation [[Proj]](http://www.dgp.toronto.edu/~rms/software/Deform2D/)
+
+
+
+
+
 ### Stitching/Panoramas
 
 - [**2016TOG**] Jump: Virtual reality video
 - [2016ACCV] Pano2Vid: Automatic Cinematography for Watching 360° Videos [[Proj]](http://vision.cs.utexas.edu/projects/Pano2Vid/#publication) [[Code]](https://github.com/sammy-su/Pano2Vid)
+- [2014ECCV] PanoContext: A Whole-room 3D Context Model  for Panoramic Scene Understanding, oral [[Proj/Code]](http://panocontext.cs.princeton.edu/)
 - [2014ECCV] Photo Uncrop [[Proj]](http://grail.cs.washington.edu/projects/sq_photo_uncrop/)
+- [2010ECCV] Real-Time Spherical Mosaicing Using Whole Image Alignment
+- [2010CVPR] Generating Sharp Panoramas from Motion-blurred Videos [[Proj]](http://neelj.com/projects/sharppanoramas/)
 - [2008MM] Discovering panoramas in web videos [[Proj]](http://web.cecs.pdx.edu/~fliu/project/discover-pano.htm)
 
 - [2007EG] Scene Collages and Flexible Camera Arrays [[Proj]](http://www1.cs.columbia.edu/CAVE/projects/scene_collage/scene_collage.php) [[Sofeware]](http://www1.cs.columbia.edu/CAVE/software/scene_collage/)
+- [2007CVPR] Layered Depth Panoramas [[Proj]](http://grail.cs.washington.edu/projects/ldp/index.htm)
+
+- [2007Project] Automating Joiners [[Proj]](http://www.vision.caltech.edu/lihi/Demos/AutoJoiners.html) [[Code]](https://www.cs.cmu.edu/afs/andrew/scs/cs/15-463/f07/proj_final/www/echuangs/) [[PDF]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.369.3142&rep=rep1&type=pdf)
+- [2006TOG] Photographing long scenes with multi-viewpoint panoramas [[Proj]](http://grail.cs.washington.edu/projects/multipano/)
 
 
 
 **Stitching Application**
 
 - [2016] Introducing facebook surround 360: An open, high-quality 3d-360 video capture system [[Page]](https://engineering.fb.com/video-engineering/introducing-facebook-surround-360-an-open-high-quality-3d-360-video-capture-system/)
+
+- [2012CVPR] Recognizing Scene Viewpoint using Panoramic Place Representation [[Proj/Code]](https://vision.princeton.edu/projects/2012/SUN360/)
+
+
+
+### Stereo Stitching
+
+- [2015CVPR]  Casual Stereoscopic Panorama Stitching [[Proj/Data]](http://web.cecs.pdx.edu/~fliu/project/stereostitch/)
 
 
 
@@ -350,6 +448,8 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [2018SIVP] Perception-based seam cutting for image stitching [[Code]](https://github.com/tlliao/Perception-based-seam-cutting)
 - [2017IPOL] Efros and Freeman Image Quilting Algorithm for Texture Synthesis [2001Dynamic Seamline] [[Code]](http://www.ipol.im/pub/art/2017/171/?utm_source=doi)
 
+- [2012TOG] Panorama weaving: fast and flexible seam processing [[Proj]](http://www.sci.utah.edu/~bsumma/projects/weaving/index.html)
+
 
 
 ### Blending
@@ -357,7 +457,9 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 #### - Gradient-based
 
 - [**2019MM**] GP-GAN: Towards Realistic High-Resolution Image Blending  [[Proj]](http://wuhuikai.me/GP-GAN-Project/)  [[github]](https://github.com/wuhuikai/GP-GAN) :star:
-- [2007TOG] Efficient gradient-domain compositing using quadtrees
+- [2012TOG] Image Melding: Combining Inconsistent Images using Patch-based Synthesis [[Proj/Code]](https://www.ece.ucsb.edu/~psen/melding.html)
+- [2010ECCV] Error-tolerant Image Compositing [[Code]](http://graphics.berkeley.edu/papers/Tao-ERR-2010-09/)
+- [2007TOG] Efficient gradient-domain compositing using quadtrees [in PS CS3] [[Proj]](http://www.agarwala.org/efficient_gdc/)
 - [2004SIGG] Interactive Digital Photomontage [[Proj&Code]](http://grail.cs.washington.edu/projects/photomontage/)
 - [2004ECCV] Seamless image stitching in the gradient domain
 - [2003SIGG] Poisson image editing 
@@ -373,6 +475,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [**2018TIP**] Dissecting and Reassembling Color Correction Algorithms for Image Stitching [[Code&Supp]](1https://drive.google.com/open?id=0B_3Nh0OK9BclQkt4empQVU5yVE0)
 
 - [**2016CVPR**] Efficient and Robust Color Consistency for Community Photo Collections [[Homepage]](http://jaesik.info/publications/photoconsistency/) [[Code]](https://github.com/syncle/photo_consistency)
+- [2011ICCV] Revisiting radiometric calibration for color computer vision
 
 
 
@@ -421,9 +524,27 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 - [**2019TIP**] Deep Online Video Stabilization With Multi-Grid Warping Transformation Learning [[Code]](https://github.com/cxjyxxme/deep-online-video-stabilization) [[DebugNote]](https://github.com/24werewolf/video-stabilization/tree/0635bc287a0a631d24807161e037e8d694a1f0f5/code/deep-online-video-stabilization-master) [[Note]](https://github.com/24werewolf/video-stabilization/blob/0635bc287a0a631d24807161e037e8d694a1f0f5/paper/Deep%20Online%20Video%20Stabilization%20with%20Multi-grid.md)  Deep Online Video Stabilization, arXiv2018
 - [**2019CVPR**] Robust Video Stabilization by Optimization in CNN Weight Space [[Video]](https://cseweb.ucsd.edu/~ravir/)
+- [**2018TOG**] Joint Stabilization and Direction of 360◦ Videos
 - [2018CGF] Deep Video Stabilization Using Adversarial Networks [[Note]](https://github.com/24werewolf/video-stabilization/blob/0635bc287a0a631d24807161e037e8d694a1f0f5/paper/Deep%20Video%20Stabilization%20Using%20Adversarial%20Networks.md)
 - [2018] Deep Learning in Video Stabilization Homography Estimation, ConfNNA2018
 - [**2015TIP**] Video Stabilization Based on Feature Trajectory Augmentation and Selection and Robust Mesh Grid Warping
+- [**2013CVPR**] Plane-Based Content Preserving Warps for Video Stabilization
+- [**2013TOG**] Bundled camera Paths for Video Stabilization [[Proj/Code]](http://www.liushuaicheng.org/SIGGRAPH2013/index.htm) [As-similar-as-possible warping]
+
+- [2013TVCG] Spatially and Temporally Optimized Video Stabilization [[Proj]](https://people.cs.nctu.edu.tw/~yushuen/VideoStabilization/)
+- [2009TOG] Content-Preserving Warps for 3D Video Stabilization [[Proj/Data]](http://web.cecs.pdx.edu/~fliu/project/3dstab.htm)
+
+
+
+## Libs
+
+- [SmartBlend](https://wiki.panotools.org/SmartBlend)
+
+  It is an application for seamless image blending by Michael Norel. Smartblend allows stitching of many problematic shots (parallaxed, with moving objects or with differing exposure).
+
+- [GCO3.0](https://vision.cs.uwaterloo.ca/code/)
+
+  Matlab code for Max-flow/min-cut
 
 
 
