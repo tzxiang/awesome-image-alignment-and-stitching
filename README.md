@@ -4,9 +4,31 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 
 
+**Table of Content**
+
+- [Tutorials](#Tutorials)
+- [Review](#Review)
+- [Geometric Pre-processing](#Geometric Pre-processing)
+- [Image Matching](#Image Matching)
+  - [Feature Detection](#Feature Detection)
+  - [Feature Description](#Feature Description)
+  - [Image Matching](#Feature Description)
+- [Image Registration](#Image Registration)
+  - [Homography](#Homography)
+  - [Registration](#Registration)
+- [Image Stitching](#Image Stitching)
+- [Image Composition](#Image Composition)
+- [Stitching Assessment](#Stitching Assessment)
+- [Video Stitching](#Stitching Assessment)
+- [Video Stabilization](#Video Stabilization)
+- [Libs](#Libs)
+- [Stitching Docs/Examples](#Stitching Docs/Examples)
+
+
+
 [TOC]
 
-## Tutorial
+## Tutorials
 
 - **Repo**: [Image registration](https://github.com/youngfish42/awesome-image-registration)
 
@@ -20,11 +42,13 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
   A tutorial for anyone who wants to learn Medical Image Registration, by Natan Andrade, Fabio Augusto Faria, Fábio Augusto Menocci Cappabianco, SIBGRAPI2018
 
-- [**Blog**] **Image Registration: From SIFT to Deep Learning** [[Homepage]](https://www.sicara.ai/blog/2019-07-16-image-registration-deep-learning) [[Notes/Chinese]](https://zhuanlan.zhihu.com/p/75784915)
+- [Blog] **Image Registration: From SIFT to Deep Learning** [[Homepage]](https://www.sicara.ai/blog/2019-07-16-image-registration-deep-learning) [[Notes/Chinese]](https://zhuanlan.zhihu.com/p/75784915)
 
   It presents OpenCV feature-based methods before diving into Deep Learning, including example codes.
 
-- [Book] Image Descriptor: Modern Approaches, Bin Fan, Zhenhua Wang, and Fuchao Wang. Springer, 2015.
+- [Book] **Image Descriptor: Modern Approaches**, Bin Fan, Zhenhua Wang, and Fuchao Wang. Springer, 2015.
+
+- [Report] 刘帅成：图像对齐技术及其应用 [[Video]](https://www.bilibili.com/video/av79797993/)
 
 
 
@@ -34,20 +58,15 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 - [**2017CVPR**] HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors [[Homepage]](https://hpatches.github.io/)
 
-
-
 **Stitching/Mosaicking**
 
+- [2019GRSM] Remote Sensing Image Mosaicking: Achievements and Challenges
 - [**2019IVC**] Image mosaicing: A deeper insight
 - [ **2006Szeliski**] Image Alignment and Stitching: A Tutorial
-
-
 
 **Remote Sensing**
 
 - [**2018ISPRSJ**] A deep learning framework for remote sensing image registration
-
-
 
 **Medical Registration**
 
@@ -57,20 +76,14 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
   
 
-
-
 ## Geometric Pre-processing
 
 - [**2019TCSVT**] DR-GAN: Automatic Radial Distortion Rectification Using Conditional GAN in Real-Time
 - [**2019CVPR**] Learning to Calibrate Straight Lines for Fisheye Image Rectification
-
+- [2019CVPR] Deep Single Image Camera Calibration with Radial Distortion [[Proj]](https://research.mapillary.com/publication/cvpr19d/)
 - [2015CVPR] Line-Based Multi-Label Energy Optimization for Fisheye Image Rectification and Calibration [[Proj]](http://cvrs.whu.edu.cn/projects/FIRC/)
-
-
-
-- [IJCV2019] Superpixel-Guided Two-View Deterministic Geometric Model Fitting [Guobao Xiao]
-
-
+- 
+- [2019IJCV] Superpixel-Guided Two-View Deterministic Geometric Model Fitting [Guobao Xiao]
 
 
 
@@ -140,7 +153,13 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 #### - Feature Matching
 
 - GLMNet: Graph Learning-Matching Networks for Feature Matching, arXiv2019.11
+
 - SuperGlue: Learning Feature Matching with Graph Neural Networks, arXiv2019.11
+
+- [**2019IJCV**] Locality Preserving Matching
+
+- [2019TIP] Robust Feature Matching Using Spatial Clustering With Heavy Outliers
+
 - [**2019CVPR**] RF-Net: An End-to-End Image Matching Network based on Receptive Field [[Code]](https://github.com/Xylon-Sean/rfnet)
 
 - [**2019ICCV**] Learning Two-View Correspondences and Geometry Using Order-Aware Network [[Codes]](https://github.com/zjhthu/OANet)
@@ -168,7 +187,9 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [**2013CVPR**] Joint Spectral Correspondence for Disparate Image Matching [[Code]](https://github.com/chaitanya100100/Spectral-Analysis-for-Image-Matching)
 
 - [2013HPCS] Gpu-asift: A fast fully affine-invariant feature extraction algorithm [[Homepage]](http://www.kind-of-works.com/WANGFAN_site_data/GPU-ASIFT.html) [[Code]]()
+
 - [**2012CVPR**] Aligning Images in the Wild [[Homepage]](https://sites.google.com/site/adscsfm/home/aligning-images-in-the-wild/code)
+
 - [**2012CVPR**] Image Matching using Local Symmetry Features [[Proj&Code]](http://www.cs.cornell.edu/projects/symfeat/index.html)
 
 
@@ -178,8 +199,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [2012PR] [LPI] Robust Line Matching through Line-point Invariants, [[Code]](http://www.nlpr.ia.ac.cn/fanbin/code/TestLMDll.rar)
 
   > [2010CVPR] Line Matching Leveraged By Point Correspondences [[Proj]](http://vision.ia.ac.cn/Students/bfan/lm.htm)
-
-
 
 
 
@@ -207,13 +226,9 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 
 
-
-
 ## Image Registration
 
 - Report: Deep Learning: Image Registration, Steven Chen and Ty Nguyen, 2017 [[Slides]](Docs/CIS581Fall17-DeepLearningRegistration.pdf)
-
-
 
 ### Homography
 
@@ -249,8 +264,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 - [**2015CVPR**] Robust Image Alignment with Multiple Feature Descriptors and Matching-Guided Neighborhoods [[Proj/Code]](http://cvlab.citi.sinica.edu.tw/publications?id=79)
 - [**2014ECCV**] Multi-modal and Multi-spectral Registration for Natural Images [[Proj]](http://www.cse.cuhk.edu.hk/~leojia/projects/multimodal/index.html)
-
-
 
 #### - Remote Sensing
 
@@ -301,8 +314,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - Recursive Cascaded Networks for Unsupervised Medical Image Registration, ICCV2019 [[github]](https://github.com/microsoft/Recursive-Cascaded-Networks)
   Shengyu Zhao, Yue Dong, Eric I-Chao Chang, Yan Xu
 
-  
-
 #### - Medical Registration
 
 - **MICCAI2019**  
@@ -331,14 +342,11 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 - Closing the Gap between Deep and Conventional Image Registration using Probabilistic Dense Displacement Networks [[Codes]](https://github.com/multimodallearning/pdd_net)
 
-  
 
 #### - Point-cloud Registration
 
 - [2019ICCV] DeepVCP: An End-to-End Deep Neural Network for Point Cloud Registration
 - CMRNet: Camera to LiDAR-Map Registration, IEEE ITSC2019
-
-
 
 
 
@@ -356,11 +364,11 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 ### Spatially-Varying Warps
 
 - [**2020TIP**] Local-Adaptive Image Alignment Based on Triangular Facet Approximation
+- [2020JINS] Shape-optimizing mesh warping method for stereoscopic panorama stitching
 - [**2019TVCG**] Content-Preserving Image Stitching with Regular Boundary Constraints
 - [2019CGI] Stereoscopic Image Stitching with Rectangular Boundaries
 - [**2019TMM**] A Novel Projective-Consistent Plane based Image Stitching Method
 - [**2018TMM**] Parallax-Tolerant Image Stitching Based on Robust Elastic Warping [[Code]](https://github.com/gain2217/Robust_Elastic_Warping)
-
 - [**2018TMM**] Quasi-Homography Warps in Image Stitching
 - [**2018ECCV**] Image Stitching with Multiple Registrations [[Homepage]](https://sites.google.com/view/oois-eccv18)
 - [**2018ECCV**] Object-Centered Image Stitching  [[Homepage]](https://sites.google.com/view/oois-eccv18)
@@ -402,8 +410,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 
 
-
-
 ### Stitching/Panoramas
 
 - [**2016TOG**] Jump: Virtual reality video
@@ -420,8 +426,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [2007Project] Automating Joiners [[Proj]](http://www.vision.caltech.edu/lihi/Demos/AutoJoiners.html) [[Code]](https://www.cs.cmu.edu/afs/andrew/scs/cs/15-463/f07/proj_final/www/echuangs/) [[PDF]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.369.3142&rep=rep1&type=pdf)
 - [2006TOG] Photographing long scenes with multi-viewpoint panoramas [[Proj]](http://grail.cs.washington.edu/projects/multipano/)
 
-
-
 **Stitching Application**
 
 - [2016] Introducing facebook surround 360: An open, high-quality 3d-360 video capture system [[Page]](https://engineering.fb.com/video-engineering/introducing-facebook-surround-360-an-open-high-quality-3d-360-video-capture-system/)
@@ -433,8 +437,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 ### Stereo Stitching
 
 - [2015CVPR]  Casual Stereoscopic Panorama Stitching [[Proj/Data]](http://web.cecs.pdx.edu/~fliu/project/stereostitch/)
-
-
 
 
 
@@ -479,8 +481,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 
 
-
-
 ## Stitching Assessment
 
 - [2019MM] Cross-Reference Stitching Quality Assessment for 360° Omnidirectional Images [[Slides]](/Docs/2019MM_Cross_Reference_Stitching.pptx) [[Dataset]](https://github.com/Kaiwen1949/CRSQA) 
@@ -489,8 +489,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - **Secondary**
 
 - Quality Evaluation for Stitched Panoramic Videos, Thesis2018.11
-
-
 
 
 
@@ -511,8 +509,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - **Secondary**
 
 - [2018] Robust spatial–temporal bayesian view synthesis for video stitching with occlusion handling, MVA
-
-
 
 
 
@@ -545,8 +541,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - [GCO3.0](https://vision.cs.uwaterloo.ca/code/)
 
   Matlab code for Max-flow/min-cut
-
-
 
 
 
