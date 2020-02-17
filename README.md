@@ -6,26 +6,6 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 **Table of Content**
 
-- [Tutorials](#Tutorials)
-- [Review](#Review)
-- [Geometric Pre-processing](#Geometric Pre-processing)
-- [Image Matching](#Image Matching)
-  - [Feature Detection](#Feature Detection)
-  - [Feature Description](#Feature Description)
-  - [Image Matching](#Feature Description)
-- [Image Registration](#Image Registration)
-  - [Homography](#Homography)
-  - [Registration](#Registration)
-- [Image Stitching](#Image Stitching)
-- [Image Composition](#Image Composition)
-- [Stitching Assessment](#Stitching Assessment)
-- [Video Stitching](#Stitching Assessment)
-- [Video Stabilization](#Video Stabilization)
-- [Libs](#Libs)
-- [Stitching Docs/Examples](#Stitching Docs/Examples)
-
-
-
 [TOC]
 
 ## Tutorials
