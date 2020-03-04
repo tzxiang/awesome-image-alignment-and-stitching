@@ -338,6 +338,7 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 - **Secondary**
 - [2019] StitchNet: Image Stitching using Autoencoders and Deep Convolutional Neural Networks, thesis
 - [2018] Learning-based Natural Geometric Matching with Homography Prior, ElectronicsLetter
+- [2016] Image stitching with single-hidden layer feedforward neural networks, IJCNN
 
 
 
