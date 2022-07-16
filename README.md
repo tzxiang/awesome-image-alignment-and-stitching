@@ -30,6 +30,8 @@ A curated list of awesome resources for image alignment and stitching, etc. The 
 
 - [Report] 刘帅成：图像对齐技术及其应用 [[Video]](https://www.bilibili.com/video/av79797993/)
 
+- [OpenCV Stitching Tutorial](https://github.com/lukasalexanderweber/stitching_tutorial)
+
 
 
 ## <font color=#159>Review</font>
